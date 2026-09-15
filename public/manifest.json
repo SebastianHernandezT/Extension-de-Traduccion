@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Web Translator",
+  "version": "0.1.0",
+  "description": "Extensión de navegador para traducir contenido multilingüe de páginas web al español.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Web Translator"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
