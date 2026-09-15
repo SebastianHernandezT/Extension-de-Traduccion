@@ -1,0 +1,13 @@
+{
+  "name": "extension-de-traduccion",
+  "version": "0.1.0",
+  "description": "Extensión de navegador para traducir contenido multilingüe de páginas web al español.",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests configured yet\""
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
